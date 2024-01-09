@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="main.css" />
+
+    <!--js file-->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <!--logo-->
+      <img src="./images/logo.svg" alt="logo" class="header__logo" />
+
+      <!--mobile menu-->
+      <img
+        src="./images/icon-menu.svg"
+        alt=""
+        class="header__mobile-menu-img"
+      />
+
+      <!--navbar-->
+      <div class="navbar move-to-right">
+        <!--gray background-->
+        <div class="filler"></div>
+
+        <div class="wrapper">
+          <!--close button-->
+          <div class="navbar__list-item navbar__list-item--1">
+            <img
+              src="./images/icon-close-menu.svg"
+              alt="close button"
+              class="close-btn"
+            />
+          </div>
+
+          <div class="navbar__list-item navbar__list-item--2">
+            <p>Features</p>
+
+            <img
+              src="./images/icon-arrow-down.svg"
+              alt="icon which shows the lists are collpased"
+              class="icon-collapse"
+            />
+
+            <!--collapsed item-->
+            <div class="navbar__collapsed-items move-to-top">
+              <div class="collapse-container">
+                <div class="navbar__collapsed-item navbar__collapsed-item--1">
+                  <img src="./images/icon-todo.svg" alt="" />
+
+                  <p>Todo List</p>
+                </div>
+
+                <div class="navbar__collapsed-item navbar__collapsed-item--2">
+                  <img src="./images/icon-calendar.svg" alt="" />
+
+                  <p>Calendar</p>
+                </div>
+
+                <div class="navbar__collapsed-item navbar__collapsed-item--3">
+                  <img src="./images/icon-reminders.svg" alt="" />
+
+                  <p>Reminders</p>
+                </div>
+
+                <div class="navbar__collapsed-item navbar__collapsed-item--4">
+                  <img src="./images/icon-planning.svg" alt="" />
+
+                  <p>Planning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar__list-item navbar__list-item--3">
+            <p>Company</p>
+
+            <img
+              src="./images/icon-arrow-down.svg"
+              alt="icon which shows the lists are collpased"
+              class="icon-collapse"
+            />
+
+            <!--collapsed item-->
+            <div class="navbar__collapsed-items">
+              <div class="navbar__collapsed-item navbar__collapsed-item--1">
+                <p>History</p>
+              </div>
+
+              <div class="navbar__collapsed-item navbar__collapsed-item--2">
+                <p>Our Team</p>
+              </div>
+
+              <div class="navbar__collapsed-item navbar__collapsed-item--3">
+                <p>Blog</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar__list-item navbar__list-item--4">
+            <p>Careers</p>
+          </div>
+
+          <div class="navbar__list-item navbar__list-item--5">
+            <p>About</p>
+          </div>
+
+          <!--buttons-->
+          <div class="navbar__list-item navbar__list-item--6">
+            <button class="btn" id=" btn--login">Login</button>
+          </div>
+
+          <div class="navbar__list-item navbar__list-item--7">
+            <button class="btn" id="btn--register">Register</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <img class="main__hero-img" src="./images/image-hero-mobile.png" alt="" />
+
+      <h1 class="main__title">Make remote work</h1>
+
+      <p class="main__text">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+
+      <button class="main__btn">Learn more</button>
+
+      <div class="main__list-of-clients">
+        <img src="./images/client-databiz.svg" alt="" />
+        <img src="./images/client-audiophile.svg" alt="" />
+        <img src="./images/client-meet.svg" alt="" />
+        <img src="./images/client-maker.svg" alt="" />
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+</html>
