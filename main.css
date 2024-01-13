@@ -183,7 +183,6 @@ body {
 
 .navbar__collapsed-item {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -523,5 +522,15 @@ footer {
     margin: 0 auto 10rem 0;
     padding: 2.1rem 2.5rem;
     font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 329px) {
+  .navbar__collapsed-item {
+    flex-direction: column;
+  }
+
+  .navbar__list-item--2 .navbar__collapsed-item p {
+    margin-top: 1rem;
   }
 }
