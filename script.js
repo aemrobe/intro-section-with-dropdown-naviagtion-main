@@ -7,6 +7,9 @@ const mainHeroImg = document.querySelector(".main__hero-img");
 const changingTheCollapseIcons = function (e, src) {
   const navItem = e.target.closest(".navbar__list-item");
 
+  //if the click isn't inside the navItem return from the function
+  if (!navItem) return;
+
   const iconCollapse = navItem.querySelector(".icon-collapse");
 
   //if the navItem doesn't contain the collapse icon return from the function
