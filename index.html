@@ -21,144 +21,174 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <!--header-->
-    <header class="header">
-      <!--logo-->
-      <img src="./images/logo.svg" alt="logo" class="header__logo" />
+    <div class="main-wrapper">
+      <!--header-->
+      <header class="header">
+        <!--logo-->
+        <img src="./images/logo.svg" alt="logo" class="header__logo" />
 
-      <!--mobile menu-->
-      <img
-        src="./images/icon-menu.svg"
-        alt=""
-        class="header__mobile-menu-img"
-      />
+        <!--mobile menu-->
+        <img
+          src="./images/icon-menu.svg"
+          alt=""
+          class="header__mobile-menu-img"
+        />
 
-      <!--navbar-->
-      <div class="navbar move-to-right">
-        <!--gray background-->
-        <div class="filler"></div>
+        <!--navbar-->
+        <nav class="navbar move-to-right">
+          <!--gray background-->
+          <div class="filler"></div>
 
-        <div class="wrapper">
-          <!--close button-->
-          <div class="navbar__list-item navbar__list-item--1">
-            <img
-              src="./images/icon-close-menu.svg"
-              alt="close button"
-              class="close-btn"
-            />
-          </div>
+          <div class="wrapper">
+            <!--close button-->
+            <div class="navbar__list-item navbar__list-item--1">
+              <img
+                src="./images/icon-close-menu.svg"
+                alt="close button"
+                class="close-btn"
+              />
+            </div>
 
-          <div class="navbar__list-item navbar__list-item--2">
-            <p>Features</p>
+            <div class="navbar__list-item navbar__list-item--2">
+              <p>Features</p>
 
-            <img
-              src="./images/icon-arrow-down.svg"
-              alt="icon which shows the lists are collpased"
-              class="icon-collapse"
-            />
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="icon which shows the dropdown menu below is collpassed"
+                class="icon-collapse"
+              />
 
-            <!--collapsed item-->
-            <div class="navbar__collapsed-items move-to-top">
-              <div class="collapse-container">
-                <div class="navbar__collapsed-item navbar__collapsed-item--1">
-                  <img src="./images/icon-todo.svg" alt="" />
+              <!--collapsed item-->
+              <div class="navbar__collapsed-items not-open">
+                <div class="collapse-container">
+                  <div class="navbar__collapsed-item navbar__collapsed-item--1">
+                    <img src="./images/icon-todo.svg" alt="" />
 
-                  <p>Todo List</p>
-                </div>
+                    <p>Todo List</p>
+                  </div>
 
-                <div class="navbar__collapsed-item navbar__collapsed-item--2">
-                  <img src="./images/icon-calendar.svg" alt="" />
+                  <div class="navbar__collapsed-item navbar__collapsed-item--2">
+                    <img src="./images/icon-calendar.svg" alt="" />
 
-                  <p>Calendar</p>
-                </div>
+                    <p>Calendar</p>
+                  </div>
 
-                <div class="navbar__collapsed-item navbar__collapsed-item--3">
-                  <img src="./images/icon-reminders.svg" alt="" />
+                  <div class="navbar__collapsed-item navbar__collapsed-item--3">
+                    <img src="./images/icon-reminders.svg" alt="" />
 
-                  <p>Reminders</p>
-                </div>
+                    <p>Reminders</p>
+                  </div>
 
-                <div class="navbar__collapsed-item navbar__collapsed-item--4">
-                  <img src="./images/icon-planning.svg" alt="" />
+                  <div class="navbar__collapsed-item navbar__collapsed-item--4">
+                    <img src="./images/icon-planning.svg" alt="" />
 
-                  <p>Planning</p>
+                    <p>Planning</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="navbar__list-item navbar__list-item--3">
-            <p>Company</p>
+            <div class="navbar__list-item navbar__list-item--3">
+              <p>Company</p>
 
-            <img
-              src="./images/icon-arrow-down.svg"
-              alt="icon which shows the lists are collpased"
-              class="icon-collapse"
-            />
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="icon which shows the lists are collpased"
+                class="icon-collapse"
+              />
 
-            <!--collapsed item-->
-            <div class="navbar__collapsed-items">
-              <div class="navbar__collapsed-item navbar__collapsed-item--1">
-                <p>History</p>
-              </div>
+              <!--collapsed item-->
+              <div class="navbar__collapsed-items not-open">
+                <div class="collapse-container">
+                  <div class="navbar__collapsed-item navbar__collapsed-item--1">
+                    <p>History</p>
+                  </div>
 
-              <div class="navbar__collapsed-item navbar__collapsed-item--2">
-                <p>Our Team</p>
-              </div>
+                  <div class="navbar__collapsed-item navbar__collapsed-item--2">
+                    <p>Our Team</p>
+                  </div>
 
-              <div class="navbar__collapsed-item navbar__collapsed-item--3">
-                <p>Blog</p>
+                  <div class="navbar__collapsed-item navbar__collapsed-item--3">
+                    <p>Blog</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="navbar__list-item navbar__list-item--4">
-            <p>Careers</p>
-          </div>
+            <div class="navbar__list-item navbar__list-item--4">
+              <p>Careers</p>
+            </div>
 
-          <div class="navbar__list-item navbar__list-item--5">
-            <p>About</p>
-          </div>
+            <div class="navbar__list-item navbar__list-item--5">
+              <p>About</p>
+            </div>
 
-          <!--buttons-->
-          <div class="navbar__list-item navbar__list-item--6">
-            <button class="btn" id=" btn--login">Login</button>
-          </div>
+            <!--buttons-->
+            <div class="navbar__list-item navbar__list-item--6">
+              <button class="btn" id=" btn--login">Login</button>
+            </div>
 
-          <div class="navbar__list-item navbar__list-item--7">
-            <button class="btn" id="btn--register">Register</button>
+            <div class="navbar__list-item navbar__list-item--7">
+              <button class="btn" id="btn--register">Register</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!--main-->
+      <main class="main">
+        <img
+          class="main__hero-img"
+          src="./images/image-hero-mobile.png"
+          alt=""
+        />
+
+        <div class="main__container">
+          <h1 class="main__title">Make remote work</h1>
+
+          <p class="main__text">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+
+          <button class="main__btn">Learn more</button>
+
+          <div class="main__list-of-clients">
+            <img
+              class="main__list-of-client"
+              src="./images/client-databiz.svg"
+              alt=""
+            />
+            <img
+              class="main__list-of-client"
+              src="./images/client-audiophile.svg"
+              alt=""
+            />
+            <img
+              class="main__list-of-client"
+              src="./images/client-meet.svg"
+              alt=""
+            />
+            <img
+              class="main__list-of-client"
+              src="./images/client-maker.svg"
+              alt=""
+            />
           </div>
         </div>
-      </div>
-    </header>
+      </main>
 
-    <main class="main">
-      <img class="main__hero-img" src="./images/image-hero-mobile.png" alt="" />
-
-      <h1 class="main__title">Make remote work</h1>
-
-      <p class="main__text">
-        Get your team in sync, no matter your location. Streamline processes,
-        create team rituals, and watch productivity soar.
-      </p>
-
-      <button class="main__btn">Learn more</button>
-
-      <div class="main__list-of-clients">
-        <img src="./images/client-databiz.svg" alt="" />
-        <img src="./images/client-audiophile.svg" alt="" />
-        <img src="./images/client-meet.svg" alt="" />
-        <img src="./images/client-maker.svg" alt="" />
-      </div>
-    </main>
-
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div>
-    </footer>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.frontendmentor.io/profile/aemrobe"
+            >Aemro Bekalu</a
+          >.
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
