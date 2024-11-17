@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/introsectionwithdropdownmenu-AEYpz7yqBf)
 - Live Site URL: [live site URL](https://aemrobe.github.io/intro-section-with-dropdown-naviagtion-main/)
 
 ## My process
@@ -68,4 +68,4 @@ I will continue to do other js challenges which helps me to sharp my js skills
 
 ## Acknowledgments
 
-I will say thanks to kevin powell for creating the above YT videos without them I couldn't able to figure out how can I tackle the animation which I want to put there
+I want to say thanks to kevin powell for creating the above YT videos without them I couldn't able to figure out how can I tackle the animation which I want to put there
